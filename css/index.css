@@ -3,4 +3,5 @@
 @import url(./express-yourself.partial.css);
 @import url(./custom-cake-fillings.details.partial.css);
 @import url(./latest-fillings.details.partial.css);
-@import url(./cake-fillings.details.partial);
+@import url(./cake-fillings.details.partial.css);
+@import url(./forms.css);
