@@ -36,6 +36,5 @@ p {
 .container {
     max-width: 1200px;
     margin: auto;
-    background-color: var(--container-color);
     padding: 0 24px;
 }

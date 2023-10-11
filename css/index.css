@@ -1,9 +1,7 @@
 @import url(./globals.css);
 @import url(./choose-your-sweets.partial.css);
 @import url(./express-yourself.partial.css);
-@import url(./custom-cake-fillings.details.partial.css);
-@import url(./latest-fillings.details.partial.css);
-@import url(./cake-fillings.details.partial.css);
 @import url(./forms.css);
 @import url(./header.css);
 @import url(./controls.css);
+@import url(./fillings.css);
