@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+h2 {
+    font-size: 34px;
+    color: var(--title-color);
+    text-align: center;
+}
+
+.choose-your-sweets__icon {
+    width: 70px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+}
+
+.choose-your-sweets__card {
+    display:flex;
+    flex-direction: column;
+}
+
+.choose-your-sweets__card .card__link {
+    text-decoration: none;
+    color: #4C6386;
+    font-size: 14px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+    
+.choose-your-sweets__card .card__link:hover{
+    color: #a8b7d5;
+}
