@@ -1,6 +1,6 @@
 <header class="header">
-    <div class="header__block">
-        <div class="header__block-up">
+    <div class="header__wrapper container">
+        <div class="header__wrapper-up">
             <a class="number" href="tel:+12345678900">+ 1 (234) 567 89 00</a>
             <div class="header__social-media">
                 <a href="https://www.facebook.com/">
@@ -14,11 +14,16 @@
                 </a>
             </div>
         </div>
-        <div class="header__block-down">
-            <a class="logo" href="index.html">
-                <img class="logo__img" src="img/header-rosemary-icon.png" alt="Logo of the Rosemary Cakes shop">
-            </a>
-            <div class="nav-box">
+        <div class="header__wrapper-down">
+            <div class="header__wrapper-down-main-part">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="img/header-rosemary-icon.png" alt="Logo of the Rosemary Cakes shop">
+                </a>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav-wrapper">
                 <nav class="header__nav">
                     <ul class="header__nav-links">
                         <li>
@@ -35,7 +40,7 @@
                         </li>
                     </ul>
                 </nav>
-                <a href="#form" class="nav-box__button">Order</a>
+                <a href="#form" class="nav-wrapper__button" id="order-button">Order</a>
             </div>
         </div>
     </div>

@@ -1,0 +1,10 @@
+#order-button{
+    color: #fff;
+    width: 92px;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 15px 25px;
+    background-color: #e22028;
+    border-radius: 10px 50px 50px 50px;
+    text-decoration: none;
+}
