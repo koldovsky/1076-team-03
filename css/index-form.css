@@ -1,0 +1,56 @@
+.index-form {
+    background-image: url(../img/index-form-backgrount-img.webp);
+    background-size: cover;
+    min-width: 320px;
+    width: 100%;
+    padding: 85px 0;
+}
+.index-form .container {
+    display: flex;
+    flex-direction: column;
+}
+.index-form__img img {
+    display: flex;
+    justify-self: center;
+}
+.index-form__box {
+    background-color: var(--container-color);
+    border-radius: 10px;
+    box-shadow: rgba(130, 134, 143, 0.25) -3px 3px 26px 5px;
+    margin-top: 50px;
+}
+#form{
+    padding: 29px 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+#form h2{
+    letter-spacing: -0.714px;
+    line-height: 44.2px;
+    font-size: 32px;
+}
+#form .plant-line img {
+    width: 70px;
+    margin: 0 auto;
+}
+#form p{
+    line-height: 30.6px;
+    font-size: 18px;
+    text-align: center;
+}
+#form .form-input {
+    color: #fff;
+    width: 215px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 25px;
+    background-color: rgba(69, 64, 67, 0.12);
+    border: 0px rgba(69, 64, 67, 0.12);
+    border-radius: 10px 50px 50px 50px;
+}
+#form .form-input::placeholder {
+    color: rgba(69, 64, 67, 0.4);
+    font-weight: 400;
+  }
