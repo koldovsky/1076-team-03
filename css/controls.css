@@ -1,21 +1,45 @@
 #order-button{
     color: #fff;
-    width: 92px;
+    width: auto;
     font-size: 16px;
     font-weight: 900;
     padding: 15px 25px;
     background-color: #e22028;
-    border-radius: 10px 50px 50px 50px;
+    border-radius: 17px 50px 50px 50px;
     text-decoration: none;
+    transition-duration: 0.3s;
 }
-.form-button{
+.form-button {
     color: #fff;
-    width: 215px;
+    width: auto;
     font-size: 16px;
     font-weight: 900;
-    padding: 15px 25px;
+    padding: 15px 5px;
     background-color: #e22028;
     border: 0px #e22028;
-    border-radius: 10px 50px 50px 50px;
+    border-radius: 17px 50px 50px 50px;
     font-family: 'Lato', sans-serif;
+    transition-duration: 0.3s;
+}
+#order-button:hover, .form-button:hover {
+    color: #fffbe2;
+    width: auto;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 15px 25px;
+    background-color: #be191f;
+    border-radius: 17px 50px 50px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+#order-button:active, .form-button:active {
+    color: #ffffff;
+    width: auto;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 15px 25px;
+    background-color: #9a171b;
+    border-radius: 17px 50px 50px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
 }

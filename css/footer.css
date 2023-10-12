@@ -27,6 +27,17 @@
     font-size: 17px;
     color: var(--title-color);
 }
+
+
+.footer__nav-links li a:hover{
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--title-color);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition-duration: 0.9s;
+}
+
 .footer__social-media{
     margin-top: 30px;
     display: flex;
@@ -37,6 +48,13 @@
     width: 30px;
     background-color: var(--background-color);
     border-radius: 8px;
+}
+.footer__social-media a:hover{
+    display: block;
+    width: 30px;
+    background-color: var(--background-color);
+    border-radius: 8px; 
+    padding: 1px;
 }
 .footer__social-media a img{
     padding: 7px;
