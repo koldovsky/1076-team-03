@@ -25,7 +25,8 @@
 }
 
 .choose-your-sweets__card .card__image {
-    max-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 .choose-your-sweets__card .card__title {

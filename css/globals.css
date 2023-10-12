@@ -15,6 +15,7 @@
     --background-color: #fef7f0;
     --container-color: white;
     --input-focus-color: rgb(59, 153, 252);
+    --button-color: #aa1a1a;
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
     background-color: var(--background-color);
@@ -37,4 +38,6 @@ p {
 }
 input:focus {
     outline-color: var(--input-focus-color);
+    font-family: ;
+    font-size: 17px;
 }
