@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -13,29 +14,28 @@
     --price-color: #e22028;
     --background-color: #fef7f0;
     --container-color: white;
-    --input-background-color: rgba(69, 64, 67, 0.12);
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
-    max-width: 1200px;
-    margin: auto;
     background-color: var(--background-color);
 }
-
 img {
     display: block;
+    width: 100%;
 }
-
 h1, h2 {
     font-family: 'Merienda', cursive;
     color: var(--title-color);
 }
-
 p {
     color: var(--text-color);
 }
-
 .container {
     max-width: 1200px;
     margin: auto;
-    background-color: var(--container-color);
+    padding: 0 24px;
+}
+input:focus {
+    outline-color: var(--input-focus-color);
+    font-family: ;
+    font-size: 17px;
 }

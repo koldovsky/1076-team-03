@@ -1,0 +1,112 @@
+.cake-fillings {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 85px;
+}
+.cake-fillings__title {
+    color: var(--title-color);
+    text-align: center;
+    padding-bottom: 15.5px;
+    font-size: 34px;
+}
+
+.cake-fillings__picture {
+    width: 70px;
+    height: 14px;
+    margin: auto;
+}
+
+.cake-fillings__item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--container-color);
+    margin-top: 50px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.19);
+    border-radius: 5px 5px;
+}
+
+.cake-fillings__box {
+    height: 240.9px;
+    width: 218px;
+    margin: auto;
+    padding-top: 32px;
+}
+
+.box__image {
+     object-fit: cover;
+     object-position: 15% 50%;
+     height: 100%;
+}
+
+.cake-fillings__item-title {
+    font-family: 'Merienda', cursive;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.cake-fillings__item-price {
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #e22028;
+    padding-bottom: 25px;
+}
+
+.cake-fillings__item-description {
+    text-align: center;
+    margin: 0 30px 30px 30px;
+    font-size: 17px;
+}
+
+.cake-fillings__see-more-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cake-fillings__see-more-button {
+    background-color: white;
+    color: var(--title-color);
+    border: 2px solid rgb(226, 32, 40);
+    padding: 14px 25px;
+    text-align: center;
+    border-radius: 10px 50px 50px 50px;
+    text-decoration: none;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.cake-fillings__see-more-button:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .cake-fillings__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    .cake-fillings__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    .cake-fillings__title {
+        font-size: 38px;
+    }
+
+    .cake-fillings__item-title {
+        font-size: 24px;
+    }
+
+    .cake-fillings__item-price {
+        font-size: 21px;
+    }
+}
