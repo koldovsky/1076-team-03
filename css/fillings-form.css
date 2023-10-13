@@ -1,0 +1,47 @@
+.fillings__form {
+    background-image: url(../img/index-form-backgrount-img.webp);
+    background-size: cover;
+    min-width: 320px;
+    width: 100%;
+}
+
+.fillings__form .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fillings__form-title {
+    font-size: 34px;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.fillings__form-text {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fillings__form-input {
+    background-color: var(--input-background-color);
+    color: var(--title-color);
+    padding: 15px 25px;
+    border: 0px var(--input-background-color);
+    border-radius: 10px 50px 50px 50px;
+}
+
+.fillings__form-button {
+    color: #fff;
+    width: auto;
+    font-size: 16px;
+    padding: 15px 5px;
+    background-color: var(--button-color-passive);
+    border: 0px var(--button-color-passive);
+    border-radius: 10px 50px 50px 50px;
+    font-family: 'Lato', sans-serif;
+}
