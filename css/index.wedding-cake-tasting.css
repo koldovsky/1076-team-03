@@ -1,0 +1,63 @@
+.wedding-cake-tasting {
+    padding-top: 75px;
+    padding-bottom: 85px;
+}
+
+.wedding-cake-tasting__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.wedding-cake-tasting__image{
+    height: auto;
+}
+
+.wedding-cake-tasting__picture {
+    width: 70px;
+    height: 14px;
+}
+
+.wedding-cake-tasting__title {
+    font-size: 34px;
+    line-height: 55.9px;
+}
+
+.wedding-cake-tasting__description {
+    margin: auto;
+    font-size: 17px;
+    line-height: 28.9
+}
+
+.wedding-cake-tasting__appointment-buttons {
+    margin-top: 50px;
+}
+
+.wedding-cake-tasting__appointment-button {
+    background-color: rgb(226, 32, 40);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    border-radius: 10px 50px 50px 50px;
+    text-decoration: none;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .wedding-cake-tasting__main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wedding-cake-tasting__main-image {
+        padding: 0 15px;
+    }
+
+    .wedding-cake-tasting__text {
+        padding: 0 15px;
+    }
+
+    .wedding-cake-tasting__title {
+        font-size: 38px;
+    }
+}
