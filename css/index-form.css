@@ -5,6 +5,7 @@
     width: 100%;
     padding: 85px 0;
 }
+
 .index-form .container {
     display: flex;
     flex-direction: column;
@@ -15,6 +16,7 @@
     display: flex;
     justify-self: center;
 }
+
 .index-form__box {
     background-color: var(--container-color);
     border-radius: 10px;
@@ -23,31 +25,36 @@
     min-width: 260px;
     max-width: 470px;
 }
-#form{
+
+#form {
     padding: 29px 27px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    
+
 }
-#form h2{
+
+#form h2 {
     letter-spacing: -0.714px;
     line-height: 44.2px;
     font-size: 32px;
     text-align: center;
 }
+
 #form .plant-line img {
     width: 70px;
     margin: 0 auto;
 }
-#form p{
+
+#form p {
     line-height: 30.6px;
     font-size: 18px;
     text-align: center;
 }
+
 #form .form-input {
-    color: var( --title-color);
+    color: var(--title-color);
     width: auto;
     font-size: 16px;
     font-weight: 400;
@@ -57,11 +64,13 @@
     border-radius: 10px 50px 50px 50px;
     letter-spacing: 1px;
 }
+
 #form .form-input::placeholder {
     color: rgba(69, 64, 67, 0.4);
     font-weight: 400;
 }
-@media (min-width: 768px){
+
+@media (min-width: 768px) {
     .index-form .container {
         display: flex;
         flex-direction: row;
@@ -69,6 +78,7 @@
         gap: 5%;
         padding-left: -10px;
     }
+
     .index-form__box {
         background-color: var(--container-color);
         border-radius: 10px;
@@ -78,6 +88,7 @@
         max-width: 470px;
         margin-right: 40px;
     }
+
     .index-form__img img {
         display: flex;
         justify-self: center;
