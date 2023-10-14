@@ -1,5 +1,5 @@
 .wedding-cake-tasting {
-    padding-top: 75px;
+    padding-top: 85px;
     padding-bottom: 85px;
 }
 
@@ -35,16 +35,19 @@
     margin-top: 50px;
 }
 
-.wedding-cake-tasting__appointment-button {
+.wedding__button {
     background-color: rgb(226, 32, 40);
     color: white;
     padding: 15px 25px;
     text-align: center;
-    border-radius: 10px 50px 50px 50px;
+    border-radius: 15px 50px 50px 50px;
     text-decoration: none;
     font-family: "Source Sans Pro",sans-serif;
     font-weight: 600;
-    margin-top: 50px;
+}
+
+.wedding__button:hover {
+    background-color: var(--button-color);
 }
 
 @media (min-width: 768px) {
@@ -53,21 +56,13 @@
         flex-direction: row;
     }
 
-    .wedding-cake-tasting__main-image {
-        padding: 0 15px;
-    }
-
     .wedding-cake-tasting__text {
-        padding: 0 15px;
+        margin: 0 30px;
     }
 
     .wedding-cake-tasting__title {
         font-size: 38px;
-    }
-
-    .wedding-cake-tasting__title {
-        font-size: 38px;
-        padding-top: 0;
+        padding-top: 5px;
         padding-bottom: 15.5px;
         line-height: 55.9px;
     }
@@ -80,10 +75,10 @@
     }
 
     .wedding-cake-tasting__description {
-        padding-top: 30px;  
+        padding-top: 26px;  
     }
 
-    .wedding-cake-tasting__appointment-button {
-        margin-top: 60px;
+    .wedding-cake-tasting__appointment-buttons {
+        margin-top: 54px;
     }
 }
