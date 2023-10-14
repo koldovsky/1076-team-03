@@ -1,4 +1,4 @@
-.fillings__form {
+.contacts__form {
     background-image: url(../img/index-form-backgrount-img.webp);
     background-size: cover;
     min-width: 320px;
@@ -6,7 +6,7 @@
     padding: 85px 0;
 }
 
-.fillings__form .container {
+.contacts__form .container {
     background-color: var(--container-color);
     display: flex;
     flex-direction: column;
@@ -17,18 +17,18 @@
     box-shadow: var(--shadow-color) -3px 3px 26px 5px;
 }
 
-.fillings__form-title {
+.contacts__form-title {
     font-size: 34px;
     text-align: center;
     color: var(--title-color);
 }
 
-.fillings__form img {
+.contacts__form img {
     width: 70px;
     margin: 10px auto;
 }
 
-.fillings__form-text {
+.contacts__form-text {
     text-align: center;
     margin: 10px 0;
 }
@@ -39,7 +39,7 @@
     justify-content: center;
 }
 
-.fillings__form-input {
+.contacts__form-input {
     color: var(--title-color);
     width: auto;
     padding: 15px 25px;
@@ -49,6 +49,6 @@
     margin: 12px 0;
 }
 
-.fillings__form-button {
+.contacts__form-button {
     margin: 50px 0;
 }
