@@ -6,6 +6,7 @@
     font-size: 34px;
     color: var(--title-color);
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .choose-your-sweets__icon {
@@ -18,15 +19,24 @@
 .choose-your-sweets__cards {
     display:grid;
     grid-template-columns: 1fr;
-    gap: 15px;
+    margin: 50px;
+    gap: 30px;
 }
 .choose-your-sweets__card {
     background-color: var(--container-color);
+    padding-top: 32px;
+    padding-left: 27px;
+    padding-right: 27px;
+    box-shadow: var(--shadow-color) -3px 3px 26px 5px;
+    align-items: center;
+    border-radius: 8px;
+}
 }
 
 .choose-your-sweets__card .card__image {
-    height: auto;
+    display: block;
     width: 100%;
+    object-position: 58.494% 50%;
 }
 
 .choose-your-sweets__card .card__title {
@@ -52,5 +62,6 @@
 @media (min-width: 900px) {
     .choose-your-sweets__cards {
         grid-template-columns: repeat(3, 1fr)
+
     }
 }

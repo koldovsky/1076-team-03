@@ -1,15 +1,16 @@
-.express-yourself {
+.express-yourself__section {
     background-color: var(--container-color);
-    padding: 20px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    padding: 32px;
 }
+
 .express-yourself__title {
-    text-align: center;
     font-size: 34px;
     color: var(--title-color);
-}
+    text-align: center;
+    padding-bottom: 20px;
+}   
 
 .express-yourself__icon {
     width: 70px;
@@ -19,47 +20,52 @@
 }
 
 .express-yourself__subtitle {
-    font-family: 'Merienda', cursive;
     font-size: 22px;
     color: var(--title-color);
+    font-family: 'Merienda', cursive;;
+    padding-top: 20px;
 }
 
-.express-yourself__paragraph {
+.express-yourself__paragraph{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
     color: var(--text-color);
-   font-family: 'Lato', sans-serif;
-   font-size: 17px;
-   margin: 18px;
-   border: 20px;
+    padding-bottom: 40px;
+    padding-top: 30px;
 }
-
 .express-yourself__link {
-    background-color: var(--price-color);
+    background-color: var(--button-color-passive);
     color: var(--container-color);
-    padding: 14px 25px;
-    border-radius: 10px 50px 50px 50px;
+    padding: 15px 25px;
     text-align: center;
+    border-radius: 15px 50px 50px 50px;
     text-decoration: none;
     font-family: "Source Sans Pro",sans-serif;
-    font-size: 16px;
-    border: 1.6px;
-    margin: 48px 0px 0px;
-    width: 200px;
+    font-weight: 600;
 }
 
 .express-yourself__link:hover {
-background-color: var(--button-color);
+    background-color: var(--button-color);
 }
 
 .express-yourself__image {
+    padding-top: 20px;
+    padding-top: 75px;
     width: 100%;
     height: auto;
 }
 
-@media (min-width: 768px){
+.express-yourself {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
     .express-yourself {
-        display: block;
-        background-color: var(--container-color);
-        display: flex;
-        flex-direction: column;
-        padding-top: 20px;
+       flex-direction: row;
+       padding: 0 32px;
     }
+    .express-yourself__image {
+        max-width: 100%;
+        height: auto;
+}
