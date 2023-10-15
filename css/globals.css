@@ -20,7 +20,9 @@
     --button-color: #aa1a1a;
     --button-color-passive: #e22028;
     --shadow-color: lightgray;
+    --border-color: #e22028;
     --font: 'Merienda', cursive;
+    --button-font: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
     max-width: 1200px;
