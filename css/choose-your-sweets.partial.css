@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-h2 {
+.choose-your-sweets {
+    padding: 20px;
+    margin: 20px;
+}
+.choose-your-sweets__title{
     font-size: 34px;
     color: var(--title-color);
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .choose-your-sweets__icon {
@@ -12,9 +16,31 @@ h2 {
     margin: 0 auto;
 }
 
+.choose-your-sweets__cards {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin: 50px;
+    gap: 30px;
+}
 .choose-your-sweets__card {
-    display:flex;
-    flex-direction: column;
+    background-color: var(--container-color);
+    padding-top: 32px;
+    padding-left: 27px;
+    padding-right: 27px;
+    box-shadow: var(--shadow-color) -3px 3px 26px 5px;
+    align-items: center;
+    border-radius: 8px;
+}
+}
+
+.choose-your-sweets__card .card__image {
+    display: block;
+    width: 100%;
+    object-position: 58.494% 50%;
+}
+
+.choose-your-sweets__card .card__title {
+    text-align: center;
 }
 
 .choose-your-sweets__card .card__link {
@@ -26,4 +52,16 @@ h2 {
     
 .choose-your-sweets__card .card__link:hover{
     color: #a8b7d5;
+}
+
+@media (min-width: 600px) {
+    .choose-your-sweets__cards {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media (min-width: 900px) {
+    .choose-your-sweets__cards {
+        grid-template-columns: repeat(3, 1fr)
+
+    }
 }
