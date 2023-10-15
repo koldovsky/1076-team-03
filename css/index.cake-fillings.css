@@ -3,7 +3,7 @@
     flex-direction: column;
     padding-top: 75px;
     padding-bottom: 85px;
-    background-color: white;
+    background-color: var(--container-color);
 }
 .cake-fillings__title {
     color: var(--title-color);
@@ -23,7 +23,7 @@
     flex-direction: column;
     background-color: var(--container-color);
     margin-top: 50px;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 24px var(--shadow-color);
     border-radius: 5px 5px;
 }
 
@@ -47,7 +47,7 @@
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: #e22028;
+    color: var(--price-color);
     padding-bottom: 25px;
 }
 
@@ -65,9 +65,9 @@
 }
 
 .cake-fillings__see-more-button {
-    background-color: white;
+    background-color: var(--container-color);
     color: var(--title-color);
-    border: 2px solid rgb(226, 32, 40);
+    border: 2px solid var(--button-color-passive);
     padding: 12px 25px;
     text-align: center;
     border-radius: 15px 50px 50px 50px;
@@ -75,11 +75,12 @@
     font-family: "Source Sans Pro",sans-serif;
     font-weight: 600;
     line-height: 22px;
+    transition:  background-color .2s ease-in-out;
 }
 
 .cake-fillings__see-more-button:hover {
-    background-color: rgb(226, 32, 40);
-    color: white;;
+    background-color: var(--button-color-passive);
+    color: var(--container-color);
 }
 
 @media (min-width: 768px) {
@@ -117,16 +118,6 @@
     .cake-fillings__item-title {
         font-size: 26px;
         font-weight: 600;
-    }
-
-    .cake-fillings__item {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .cake-fillings__item:hover {
-        height: 101%;
-        width: 101%;
     }
 
     .cake-fillings__item-price {

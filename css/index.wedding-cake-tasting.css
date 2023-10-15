@@ -36,14 +36,15 @@
 }
 
 .wedding__button {
-    background-color: rgb(226, 32, 40);
-    color: white;
+    background-color: var(--button-color-passive);
+    color: var(--container-color);
     padding: 15px 25px;
     text-align: center;
     border-radius: 15px 50px 50px 50px;
     text-decoration: none;
     font-family: "Source Sans Pro",sans-serif;
     font-weight: 600;
+    transition:  background-color .2s ease-in-out;
 }
 
 .wedding__button:hover {
