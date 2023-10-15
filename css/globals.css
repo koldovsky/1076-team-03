@@ -20,6 +20,7 @@
     --button-color: #aa1a1a;
     --button-color-passive: #e22028;
     --shadow-color: lightgray;
+    --font: 'Merienda', cursive;
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
     max-width: 1200px;
@@ -33,8 +34,9 @@ img {
 }
 
 h1,
-h2 {
-    font-family: 'Merienda', cursive;
+h2,
+h3 {
+    font-family: var(--font);
     color: var(--title-color);
 }
 
