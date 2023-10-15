@@ -1,5 +1,6 @@
 .instagram__cards {
   display: flex;
+  flex-direction: column;
   gap: 30px;
   font-family: "Merienda", cursive;
 }
