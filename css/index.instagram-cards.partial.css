@@ -58,3 +58,15 @@
 .instagram__button:hover {
     background-color: var(--button-color);
 }
+
+@media (min-width: 600px) {
+  .instagram__cards {
+      grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+@media (min-width: 900px) {
+  .instagram__cards {
+      grid-template-columns: repeat(3, 1fr)
+  }
+}
