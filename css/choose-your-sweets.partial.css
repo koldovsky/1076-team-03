@@ -2,6 +2,10 @@
     padding: 20px;
     margin: 20px;
 }
+.choose-your-sweets__items {
+    text-align: center;
+}
+
 .choose-your-sweets__title{
     font-size: 34px;
     color: var(--title-color);
