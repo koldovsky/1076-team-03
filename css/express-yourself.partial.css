@@ -10,6 +10,7 @@
     color: var(--title-color);
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 40px;
 }   
 
 .express-yourself__icon {
@@ -17,6 +18,11 @@
     height: 14px;
     display: block;
     margin: 0 auto;
+}
+
+.express-yourself__information {
+    padding-top: 60px;
+    line-height: 28.9px;
 }
 
 .express-yourself__subtitle {
@@ -30,9 +36,10 @@
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     color: var(--text-color);
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     padding-top: 30px;
 }
+
 .express-yourself__link {
     background-color: var(--button-color-passive);
     color: var(--container-color);
