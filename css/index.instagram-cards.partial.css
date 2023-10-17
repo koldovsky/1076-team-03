@@ -6,9 +6,9 @@
 }
 
 .instagram__card {
-  width: 33.333%;
+  width: 100%;
   background-color: white;
-  padding: 30px;
+  padding: 15px;
   box-shadow: -3px 3px 26px 5px rgba(130, 134, 143, 0.25);
   border-radius: 6px;
 }
@@ -60,13 +60,16 @@
 }
 
 @media (min-width: 600px) {
-  .instagram__cards {
-      grid-template-columns: repeat(2, 1fr)
+  .instagram__card {
+    padding: 30px;
   }
 }
 
 @media (min-width: 900px) {
+  .instagram__card {
+    width: 33.333%;
+  }
   .instagram__cards {
-      grid-template-columns: repeat(3, 1fr)
+     flex-direction: row;
   }
 }
