@@ -20,9 +20,15 @@
     --button-color: #aa1a1a;
     --button-color-passive: #e22028;
     --shadow-color: lightgray;
+    --border-color: #e22028;
+    --link-color-passive: #4C6386;
+    --link-color: #a8b7d5;
+    --font: 'Merienda', cursive;
+    --text-font: 'Lato', sans-serif;
+    --button-font: 'Open Sans', sans-serif;
+    --link-font: "Source Sans Pro",sans-serif;
     scroll-behavior: smooth;
-    font-family: 'Lato', sans-serif;
-    max-width: 1200px;
+    font-family: var(--text-font);
     margin: auto;
     background-color: var(--background-color);
 }
@@ -33,8 +39,9 @@ img {
 }
 
 h1,
-h2 {
-    font-family: 'Merienda', cursive;
+h2,
+h3 {
+    font-family: var(--font);
     color: var(--title-color);
 }
 

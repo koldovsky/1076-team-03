@@ -1,4 +1,4 @@
-#order-button {
+.nav-wrapper__button {
     color: #fff;
     width: auto;
     font-size: 16px;
@@ -23,7 +23,7 @@
     transition-duration: 0.3s;
 }
 
-#order-button:hover,
+.nav-wrapper__button:hover,
 .form-button:hover {
     color: #fffbe2;
     width: auto;
@@ -36,7 +36,7 @@
     transition-duration: 0.4s;
 }
 
-#order-button:active,
+.nav-wrapper__button:active,
 .form-button:active {
     color: #ffffff;
     width: auto;
