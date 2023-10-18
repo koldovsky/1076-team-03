@@ -1,70 +1,47 @@
-name: HTML Proofer
+// https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+// https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
+ 
+function makeNegative(num) {
+  if (num <= 0){
+    return num;
+  } else { return num * -1;
+    }
+}
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+// https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 20
+function move (position, roll) {
+  return position + roll2;
+}
 
-    - name: Install dependencies
-      run: |
-        [ -f package.json ] && npm ci || npm init -y
-        npm install puppeteer http-server
+// https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
 
-    - name: Serve files and render dynamic HTML using Puppeteer
-      run: |
-        npx http-server -p 8080 &
-        SERVER_PID=$!
-        sleep 5
+function greet (name, owner) {
+  if(name == owner){
+    return "Hello boss";
+  } else {
+    return "Hello guest";
+  }
+}
 
-        for file in $(find . -maxdepth 1 -iname "*.html" ! -iname "*.partial.html"); do
-          echo "Processing file: ${file:2}"
-          output_file=$file
-          node -e "const puppeteer = require('puppeteer');
-          (async () => {
-            const url = 'http://localhost:8080/${file:2}';
-            const browser = await puppeteer.launch({
-              headless: 'new'
-            });
-            const page = await browser.newPage();
-            await page.goto(url, {waitUntil: 'networkidle0'});
-            const html = await page.content();
-            await browser.close();
-            const fs = require('fs');
-            fs.writeFileSync('$output_file', html);
-          })().catch(err => {
-            console.error('Error processing file:', err);
-            process.exit(1);
-          });"
-        done
+// https://www.codewars.com/kata/keep-hydrated-1/train/javascript
 
-        kill $SERVER_PID
+function litres(time) {
+  return Math.floor(time 0.5);
+}
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.0
+// https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
 
-    - name: Install HTML Proofer
-      run: gem install html-proofer
+function lovefunc(flower1, flower2){
+  if (flower1 % 2 === 0 && flower2 % 2 !== 0 || flower2 % 2 === 0 && flower1 % 2 !== 0){
+    return true;
+  } else {
+    return false;
+  }
+} 
 
-    - name: Run HTML Proofer
-      run: |
-        for file in $(find . -maxdepth 1 -iname "*.html" ! -iname "*.partial.html"); do
-          htmlproofer $file --disable-external
-        done
