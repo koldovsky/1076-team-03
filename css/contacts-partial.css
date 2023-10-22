@@ -1,0 +1,45 @@
+.contacts__body {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: center;
+
+}
+.myinfo {
+    box-sizing: border-box;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    padding: 40px;
+   order: 1;
+   border: 1px solid black;
+   align-items: center;
+   
+}
+.contacts__title{
+    margin: 10%;
+}
+.contact__description{
+    margin: 5px;
+}
+.contacts__icons {
+    display: flex;
+justify-content: center;
+
+}
+.sm__logo {
+    width: 3vw;
+    height: 3vh;
+}
+.mymap {
+    width: 40vw;
+    order: 2;
+    border: 1px solid black;
+    margin: 40px;
+}
+.contacts__title {
+    font-family: Merienda, cursive;
+}
