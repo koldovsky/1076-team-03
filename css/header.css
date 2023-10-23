@@ -230,12 +230,15 @@ body.lock{
     body.lock {
         overflow: auto;
     }
-    .nav-wrapper, .nav-wrapper.active{
+    .nav-wrapper, .nav-wrapper.active {
         display: flex;
         flex-direction: row;
         padding-bottom: 0px;
         align-items: center;
         gap: 20px;
+        height: auto;
+        position:static;
+        padding-top: 0;
     }
     .header__nav-links{
         display: flex;
