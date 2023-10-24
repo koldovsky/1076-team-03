@@ -25,36 +25,22 @@ orderButton.addEventListener("click", pushOrderButton);
 
 
 
-
+//???? 
 const orderButtonLink = document.querySelector("a.nav-wrapper__button");
+const currentPageUrl = window.location.href;
+const aboutLinkIndex = currentPageUrl.search("about-us");
+const sweetsLinkIndex = currentPageUrl.search("sweets");
+const firstPartAboutUrl = currentPageUrl.slice(0, aboutLinkIndex);
+const firstPartSweetsUrl = currentPageUrl.slice(0, sweetsLinkIndex);
 function changeLink(){
-    if(window.location.href.includes("about-us")) {
-        orderButtonLink.href = "https://25vt4.weblium.site/#contact-form";
+    if(currentPageUrl.includes("about-us")) {
+        orderButtonLink.href = firstPartAboutUrl + "index.html#form";
+    }
+    if(currentPageUrl.includes("sweets")) {
+        orderButtonLink.href = firstPartSweetsUrl + "index.html#form";
     }
 }
-console.log(orderButtonLink);
 document.addEventListener("DOMContentLoaded", changeLink());
 
-
-/*function redirectToHomePage() {
-    if(window.location.href.contains("about-us")){
-        const currentPageUrl = window.location.href;
-        const partOfPageIndex = currentPageUrl.search("about-us");
-        const partOfPageUrl = currentPageUrl.slice(partOfPageIndex);
-        return currentPageUrl.replace(partOfPageUrl, "index.html");      
-    }
-    if(window.location.href.contains("sweets")){
-        const currentPageUrl = window.location.href;
-        const partOfPageIndex = currentPageUrl.search("sweets");
-        const partOfPageUrl = currentPageUrl.slice(partOfPageIndex);
-        currentPageUrl.replace(partOfPageUrl, "index.html");      
-    }
-}  
-*/
-//orderButton.addEventListener("click", redirectToHomePage);
-
-  
-  
-  
   
   
