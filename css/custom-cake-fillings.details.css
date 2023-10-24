@@ -1,8 +1,3 @@
-.custom-cake-fillings__section {
-    padding: 20px;
-    margin: 20px; 
-}
-
 .custom-cake-fillings__container {
     background-color: var(--container-color);
     max-width: 100%;
