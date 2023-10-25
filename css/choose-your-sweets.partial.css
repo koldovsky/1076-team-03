@@ -1,6 +1,10 @@
 .choose-your-sweets {
     padding: 20px;
     margin: 20px;
+    background-image: url("../img/cake-fillings-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .choose-your-sweets__items {
     text-align: center;
