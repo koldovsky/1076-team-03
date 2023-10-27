@@ -1,6 +1,10 @@
 .cake-fillings__section {
     padding: 10px;
     margin: 10px;
+    background-image: url("../img/cake-fillings-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .cake-fillings__heading {
