@@ -1,9 +1,13 @@
+@import url(./index.cake-fillings__items-carousel.css);
+
 .cake-fillings {
     display: flex;
     flex-direction: column;
     padding-top: 75px;
     padding-bottom: 85px;
     background-color: var(--container-color);
+    background-image: url("../img/index-cake-fillings-background.png");
+    background-size: cover;
 }
 .cake-fillings__title {
     color: var(--title-color);
@@ -84,12 +88,6 @@
 }
 
 @media (min-width: 768px) {
-    .cake-fillings__items {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
-
     .cake-fillings__title {
         font-size: 38px;
     }
@@ -105,12 +103,6 @@
 }
 
 @media (min-width: 992px) {
-    .cake-fillings__items {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
-    }
-
     .cake-fillings__title {
         font-size: 43px;
     }

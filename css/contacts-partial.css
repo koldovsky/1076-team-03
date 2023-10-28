@@ -1,12 +1,14 @@
 .contacts__body {
+      background-color: #FCF4DE;
+   }
+  .contacts__block {
+    flex-direction: row;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #FCF4DE;
-    
+    padding: 5px;
   }
-  
   .myinfo,
   .mymap {
     box-shadow:0px,0px,5px, gainsboro;
@@ -15,13 +17,17 @@
     flex-basis: 45%;
     padding: 20px;
     box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 5px;
     text-align: justify;
   }
-  
+
   .myinfo {
     background-color: white;
-    height: 50vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 3%;
   }
@@ -31,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 70vh;  
   }
   
   .mymap iframe {
@@ -40,19 +46,19 @@
   }
   
   .contacts__title {
-    font-size: 24px;
+    font-size: 32px;
     color: #333;
     text-align: center;
   }
   
   .contact__description {
-    margin: 10px 0;
+    margin: 10px 0; 
     color: #666;
   }
   
   .contacts__text {
     display: block;
-    margin: 10px 0;
+    margin: 10px 0; 
     text-decoration: none;
     color: #007bff;
   }
@@ -62,8 +68,19 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    padding-bottom: 20px;
   }
-  
+    .order__button {
+    color: #fff;
+    width: auto;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 12px 25px;
+    background-color: red;
+    border-radius: 17px 50px 50px 50px;
+    margin-top: 
+    
+  }
   .sm__logo {
     width: 30px;
     height: 30px;
@@ -79,6 +96,7 @@
     .mymap {
         width: 80vw;
       flex-basis: 100%;
+      height:40vh;
     }
   }
   
