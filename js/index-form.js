@@ -12,7 +12,7 @@ const form = document.getElementById("index-form");
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your order!";
+          status.innerHTML = "Thanks for your request!";
           form.reset()
         } else {
           response.json().then(data => {
