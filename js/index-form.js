@@ -1,4 +1,4 @@
-const form = document.getElementById("index-form");
+const form = document.getElementById("form");
     
     function handleSubmit(event) {
       event.preventDefault();
