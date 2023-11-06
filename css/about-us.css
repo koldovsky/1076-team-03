@@ -1,6 +1,6 @@
-@import url(global.css);
-@import url(header-nav.css);
-@import url(footer.css);
-@import url(about-us-carousel.partial.css);
-@import url(questions.css);
-@import url(about-us-top-part.css);
+@import url(./globals.css);
+@import url(./contacts-form.css);
+@import url(./controls.css);
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./contacts-partial.css);
