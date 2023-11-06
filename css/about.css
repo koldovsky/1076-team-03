@@ -1,7 +1,6 @@
 @import url(./globals.css);
-@import url(./header.css);
-@import url(./fillings-form.css);
+@import url(./contacts-form.css);
 @import url(./controls.css);
 @import url(./footer.css);
-@import url(./about-us.details.css);
-@import url(./about-us-form.css);
+@import url(./header.css);
+@import url(./contacts-partial.css);
