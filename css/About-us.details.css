@@ -1,7 +1,7 @@
 .about-us__section {
     padding: 10px;
     margin: 10px;
-    background-image: url("../img/images-about-us/cake.png");
+    background-image: url("../img/images-about-us");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -43,14 +43,7 @@
 
 .about-us__card .card__title {
     font-size: 26px;
-}
 
-.about-us__card .card__price {
-    font-size: 22px;
-    font-family: var(--font);
-    color: var(--price-color);
-    font-weight: bold;
-}
 
 .about-us__card .card__description {
     font-size: 17px;
