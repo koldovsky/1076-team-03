@@ -1,10 +1,10 @@
-.about_us_form {
+.about_us__form {
     min-width: 290px;
     width: 100%;
     padding: 85px 15px;
 }
 
-.about_us_form .container {
+.about_us__form .container {
     background-color: var(--container-color);
     display: flex;
     flex-direction: column;
@@ -15,18 +15,18 @@
     box-shadow: var(--shadow-color) -3px 3px 26px 5px;
 }
 
-.about_us_form-title {
+.about_us__form-title {
     font-size: 34px;
     text-align: center;
     color: var(--title-color);
 }
 
-.about_us_form img {
+.about_us__form img {
     width: 70px;
     margin: 10px auto;
 }
 
-.about_us_form-text {
+.about_us__form-text {
     text-align: center;
     margin: 10px 0;
 }
@@ -37,7 +37,7 @@
     justify-content: center;
 }
 
-.about_us_form-input {
+.about_us__form-input {
     color: var(--title-color);
     width: auto;
     padding: 15px 25px;
@@ -47,12 +47,12 @@
     margin: 12px 0;
 }
 
-.about_us_form-button {
+.about_us__form-button {
     margin: 50px 0;
 }
 
 @media (min-width: 768px) {
-    .about_us_form .container {
+    .about_us__form .container {
         display: flex;
         flex-direction: row;
         align-items: center;
