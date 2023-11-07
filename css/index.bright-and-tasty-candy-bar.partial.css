@@ -9,7 +9,7 @@
 .bright-and-tasty__title{
     text-align: center;
     font-size: 34px;
-    color: var(--titel-color);
+    color: var(--title-color);
     padding-bottom: 20px;
     padding-top: 40px;
 
@@ -41,7 +41,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 1000px;
     margin: auto;
     padding-bottom: 20px;
 }
