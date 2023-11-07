@@ -2,3 +2,71 @@
 @import url(./controls.css);
 @import url(./footer.css);
 @import url(./header.css);
+
+main {
+    background-color: var(--background-color);
+}
+
+.sweets-custom-cakes {
+    background-color: var(--container-color);
+}
+
+.sweets__title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 70px;
+
+}
+
+.sweets__icon {
+    width: 80px;
+    margin: 30px auto 0 auto;
+}
+
+.sweets__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.sweets__item {
+    width: 320px;
+    background-color: var(--container-color);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.sweets__image-container {
+    width: 280px;
+    height: 293px;
+    overflow: hidden;
+    margin: 30px 20px 50px 20px;
+}
+
+.sweets__image {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.sweets__item-content {
+    padding: 16px;
+    text-align: center;
+}
+
+.sweets__item-content h3 {
+    font-size: 1.6em;
+}
+
+.sweets__item-content a {
+    color: var(--link-color-passive);
+    text-decoration: none;
+}
+
+.sweets__item-content a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+}
