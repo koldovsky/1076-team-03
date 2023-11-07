@@ -3,4 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./index-form.js');
     import('./choose-your-sweets.js')
     import('./index.cake-fillings.partial.js');
+    import('./change-text.js');
 });
