@@ -29,7 +29,6 @@
     color: var(--text-color);
     padding-bottom: 50px;
     padding-top: 30px;
-    position: relative;
     max-width: 100%;
     word-wrap: break-word;
     vertical-align: baseline;
@@ -45,7 +44,6 @@
     gap: 20px;
     width: 1000px;
     height: 50px;
-    justify-content: center;
     margin: auto;
 }
 
@@ -58,5 +56,6 @@
     .blok-with-a-fotos {
         grid-template-columns: 1fr; 
         width: 100%;
+    
      }
     }
