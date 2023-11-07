@@ -38,36 +38,4 @@
       
   </div>
   </span>
-  
-
-<div id="OSM-map" style="height: 500px;"></div>
-<script type="text/javascript">var map;
-var marker = [];
-var mapOptions = {
-    scrollWheelZoom: false,
-};
-
-var id = 'OSM-map';
-
-var centerLatLng = [47.272517595415806, 11.381222889213346];
-map = L.map(id, mapOptions).setView(centerLatLng, 19);
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'generated with <a href="https://www.osm-generator.com/">osm-generator.com</a> - &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-}).addTo(map);
-
-
-marker = L.marker(
-    L.latLng(47.272517595415806, 11.381222889213346), {
-        title: 'Rosemary Cakes'
-    });
-marker.addTo(map);
-marker.bindPopup('Rosemary Cakes');
-
-
-L.control.bigImage({
-    position: 'topright'
-}).addTo(map);
-
-</script>
 </section>
