@@ -1,6 +1,5 @@
 .bright-and-tasty{
     background-color: white;
-    height: 1000px;
     padding-top: 85px;
     padding-bottom: 85px;
     padding: 32px;
@@ -27,7 +26,7 @@
     font-family: var(--text-font);
     font-size: 17px;
     color: var(--text-color);
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 30px;
     max-width: 100%;
     word-wrap: break-word;
@@ -44,6 +43,7 @@
     gap: 20px;
     width: 1000px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .blok-with-a-fotos img {
