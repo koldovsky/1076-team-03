@@ -1,7 +1,16 @@
 .about-us__section {
     padding: 10px;
     margin: 10px;
-    background-image: url("../img/images-about-us");
+    background-image: url("../img/plant-line.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Welcome-To-Rosemary-Cakes__section {
+    padding: 10px;
+    margin: 10px;
+    background-image: url("../img/plant-line.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
