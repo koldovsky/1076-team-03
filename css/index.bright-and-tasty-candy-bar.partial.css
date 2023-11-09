@@ -1,15 +1,15 @@
 .bright-and-tasty{
     background-color: white;
-    height: 1000px;
     padding-top: 85px;
     padding-bottom: 85px;
     padding: 32px;
+    margin-bottom: 20px;
 }
 
 .bright-and-tasty__title{
     text-align: center;
     font-size: 34px;
-    color: var(--titel-color);
+    color: var(--title-color);
     padding-bottom: 20px;
     padding-top: 40px;
 
@@ -26,9 +26,8 @@
     font-family: var(--text-font);
     font-size: 17px;
     color: var(--text-color);
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 30px;
-    position: relative;
     max-width: 100%;
     word-wrap: break-word;
     vertical-align: baseline;
@@ -42,10 +41,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 1000px;
-    height: 50px;
-    justify-content: center;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .blok-with-a-fotos img {
@@ -53,5 +50,13 @@
     height: 100%;
     object-fit: cover; 
 }
-
-
+@media (max-width: 768px) {
+    .blok-with-a-fotos {
+        grid-template-columns: 1fr; 
+        width: 100%;
+    
+     }
+    }
+.changingFont {
+        font-size: 34px;
+      }
